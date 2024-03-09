@@ -22,3 +22,6 @@ lib/foundry-devops/
 
 #Open Zeppelin Contracts Folder
 lib/openzeppelin-contracts/
+
+#env file keeps showing up in git changes
+/Foundry-ERC20s/.env
