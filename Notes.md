@@ -97,3 +97,15 @@ Once installed, you can use the contracts in the library by importing them:
         constructor() ERC721("MyCollectible", "MCO") {
         }
     }
+
+## Deploy Script and How an ERC20 Token Contract Simplifies Deployment
+
+In other projects covered in the course, we have used a HelperConfig.s.sol file to allow our Deploy.s.sol script to make changes to required variables, structs, other external contracts, etc, etc.
+
+However, since we are creating a standardised ERC20 Token contract, we don't need any chain specific logic as it is simply the same across all chains. If we were building a bigger project that utilised the ERC20 token contract, then chain specific logic exisitng in a HelperConfig script would be beneficial.
+
+We could have logic in either the Deploy script, or a HelperConfig script to set a deployer key so we can programmatically deploy our token between different chains - e.g Anvil, Sepolia.
+
+Remembering that the way we can access uint env variables from .env is:
+
+`vm.envUint("NAME_OF_ENV_VARIABLE")`

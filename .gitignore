@@ -13,6 +13,7 @@ docs/
 # Dotenv file
 .env
 
+
 # Chainlink folder
 lib/chainlink-brownie-contracts/
 
