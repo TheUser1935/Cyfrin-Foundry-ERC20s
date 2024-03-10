@@ -31,6 +31,41 @@ The ERC-20 is a smart contract that **REPRESENTS** a token.
 3. Create a synthetic asset
 4. or really, anything else
 
+## What is the difference between a cryptocurrency and an ERC20 Token?
+
+Cryptocurrency and ERC20 tokens are both types of digital assets, but they serve different purposes and have different characteristics:
+
+**Cryptocurrency**:
+
+Cryptocurrencies are digital or virtual currencies that use cryptography for security and operate on decentralized networks, typically based on blockchain technology.
+
+Cryptocurrencies like Bitcoin, Ethereum, and Litecoin are designed to function as mediums of exchange, stores of value, or units of account.
+
+They often have their own native blockchain networks, with specific protocols and consensus mechanisms governing their operation.
+
+Cryptocurrencies are generally fungible, meaning each unit is interchangeable with any other unit of the same type and value.
+
+They can be used for various purposes such as peer-to-peer transactions, remittances, investments, and as a hedge against inflation.
+
+**ERC20 Tokens**:
+
+ERC20 tokens are a specific type of digital asset that conforms to a set of standards outlined in the Ethereum Improvement Proposal 20 (ERC20).
+
+They are created and hosted on the Ethereum blockchain, which is a decentralized platform for building smart contracts and decentralized applications (DApps).
+
+ERC20 tokens can represent a wide range of assets, including cryptocurrencies, digital securities, utility tokens, and even real-world assets like real estate or artwork.
+
+These tokens are programmable, allowing developers to define custom functionalities and features within the token's smart contract code.
+ERC20 tokens are typically used for crowdfunding through Initial Coin Offerings (ICOs), creating decentralized finance (DeFi) protocols, powering DApps, and tokenizing assets.
+
+Unlike cryptocurrencies like Bitcoin or Ethereum, ERC20 tokens are not native to their own blockchain; instead, they are deployed on the Ethereum network as smart contracts.
+
+ERC20 tokens can be both fungible (e.g., representing currencies) and non-fungible (e.g., representing unique assets or collectibles), depending on their implementation.
+
+**Summary**
+
+In summary, while both cryptocurrencies and ERC20 tokens are digital assets, cryptocurrencies typically refer to native digital currencies that operate on their own blockchain networks, while ERC20 tokens are programmable assets built on the Ethereum blockchain, representing a wide variety of assets and functionalities.
+
 ## How do we build an ERC20?
 
 All we need to do is build a smart contract that follows the ERC20 standard outlined in EIP-20 and implement the functions that are specified.
