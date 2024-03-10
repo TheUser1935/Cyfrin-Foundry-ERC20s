@@ -1,3 +1,7 @@
 {
-  "solidity.defaultCompiler": "remote"
+  "solidity.defaultCompiler": "remote",
+  "editor.tokenColorCustomizations": {
+    "comments": "",
+    "textMateRules": []
+  }
 }
